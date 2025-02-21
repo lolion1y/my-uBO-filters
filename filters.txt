@@ -1,0 +1,55 @@
+! Title: uBlock filters
+! Expires: 12 hours
+! Homepage: https://github.com/lolion1y/uBO-rules
+
+! baike.baidu.com
+baike.baidu.com###J-invoke-baiduApp-float
+
+! zh.moegirl.org.cn
+zh.moegirl.org.cn##.user-area > .flex
+zh.moegirl.org.cn##.n-button--medium-type.n-button--primary-type.n-button.__button-light-1379ga8-dlmmp
+zh.moegirl.org.cn##.n-notification-main
+
+! kemono.su
+kemono.su##.slideAnimation--K36g6.root--ujvuu
+
+! www.reddit.com
+www.reddit.com##xpromo-untagged-content-blocking-modal
+www.reddit.com##xpromo-nsfw-blocking-modal
+
+! sspai.com
+sspai.com##.article-wrapper.postPage > .ss__button
+
+! post.m.smzdm.com
+post.m.smzdm.com##.fixed-logo
+post.m.smzdm.com##.wrapper
+
+! m.sohu.com
+m.sohu.com###CallAppContainer
+
+! konachan.com
+||tm-offers.gamingadult.com/ifr/$subdocument
+||tbib.org/gaming/kona.php$subdocument
+
+! www.pixiv.net
+www.pixiv.net##.premium-lead-t-footer
+www.pixiv.net##.t_header.ad-frame.premium-lead-new-t-info-home-top
+
+! tech.groww.in
+tech.groww.in##.vt.vs.vr.m
+
+! www.windy.com
+www.windy.com##.svelte-l1y6f8.get-premium--ribbon.get-premium
+
+! nilesoft.org
+nilesoft.org##.my-6.is-vcentered.columns
+
+! www.cnblogs.com
+www.cnblogs.com##.forpc.imagebar
+www.cnblogs.com##.charm-bar-wrapper
+
+! Google
+||accounts.google.com/gsi/iframe
+
+! ptt.cc
+www.ptt.cc##+js(set-cookie, over18, 1)
