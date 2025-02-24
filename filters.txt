@@ -56,3 +56,6 @@ www.cnblogs.com##.charm-bar-wrapper
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
+
+! ghxi
+||www.ghxi.com/wp-content/plugins/wp-opt/static/js/front.min.js$script,1p
