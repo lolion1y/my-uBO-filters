@@ -32,8 +32,11 @@ m.sohu.com###CallAppContainer
 ||tbib.org/gaming/kona.php$subdocument
 
 ! www.pixiv.net
-www.pixiv.net##.premium-lead-t-footer
-www.pixiv.net##.t_header.ad-frame.premium-lead-new-t-info-home-top
+www.pixiv.net##.banner-ad-footer-scale
+www.pixiv.net##[id^="adsdk"]
+www.pixiv.net##.ad-frame-container
+www.pixiv.net##[class*=premium-lead]
+www.pixiv.net##.hKYKav.sc-4nj1pr-5
 
 ! tech.groww.in
 tech.groww.in##.vt.vs.vr.m
