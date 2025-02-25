@@ -65,3 +65,8 @@ x.com##.css-175oi2r.r-18u37iz.r-1h0z5md.r-13awgt0:has(svg > g > path[d="M8.75 21
 x.com##a[data-testid="FloatingActionButtons_Tweet_Button"]
 ! x.com##a[data-testid="SideNav_NewTweet_Button"]
 ! x.com##a[href="/compose/post"]
+
+! csdn
+blog.csdn.net##.wap-shadowbox.weixin-shadowbox
+blog.csdn.net##.feed-Sign-weixin
+blog.csdn.net##.active.openApp
