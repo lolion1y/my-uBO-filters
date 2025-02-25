@@ -62,3 +62,6 @@ www.ptt.cc##+js(set-cookie, over18, 1)
 
 ! x.com
 x.com##.css-175oi2r.r-18u37iz.r-1h0z5md.r-13awgt0:has(svg > g > path[d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"])
+x.com##a[data-testid="FloatingActionButtons_Tweet_Button"]
+! x.com##a[data-testid="SideNav_NewTweet_Button"]
+! x.com##a[href="/compose/post"]
