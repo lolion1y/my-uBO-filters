@@ -13,7 +13,7 @@ zh.moegirl.org.cn##.n-notification-main
 ! kemono.su
 kemono.su##.slideAnimation--K36g6.root--ujvuu
 
-! www.reddit.com
+! reddit
 www.reddit.com##xpromo-untagged-content-blocking-modal
 www.reddit.com##xpromo-nsfw-blocking-modal
 
@@ -31,7 +31,7 @@ m.sohu.com###CallAppContainer
 ||tm-offers.gamingadult.com/ifr/$subdocument
 ||tbib.org/gaming/kona.php$subdocument
 
-! www.pixiv.net
+! pixiv
 www.pixiv.net##.banner-ad-footer-scale
 www.pixiv.net##[id^="adsdk"]
 www.pixiv.net##.ad-frame-container
@@ -70,3 +70,9 @@ x.com##a[data-testid="FloatingActionButtons_Tweet_Button"]
 blog.csdn.net##.wap-shadowbox.weixin-shadowbox
 blog.csdn.net##.feed-Sign-weixin
 blog.csdn.net##.active.openApp
+
+! supjav
+supjav.com##div[class*="slideAnimation"]
+
+! vk
+m.vk.com##.PageBottomBanner--unauth.PageBottomBanner
