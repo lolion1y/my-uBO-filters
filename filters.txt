@@ -76,6 +76,7 @@ supjav.com##div[class*="slideAnimation"]
 
 ! vk
 vk.com##.PageBottomBanner
+m.vk.com##.Popup_open.Popup.ModalMenu:remove()
 
 ! www.photopea.com
 www.photopea.com##.bnotify.window
