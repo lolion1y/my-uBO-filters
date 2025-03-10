@@ -75,4 +75,4 @@ blog.csdn.net##.active.openApp
 supjav.com##div[class*="slideAnimation"]
 
 ! vk
-m.vk.com##.PageBottomBanner--unauth.PageBottomBanner
+vk.com##.PageBottomBanner
