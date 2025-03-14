@@ -84,3 +84,6 @@ vk.com##body:style(overflow: auto !important)
 
 ! www.photopea.com
 www.photopea.com##.bnotify.window
+
+! Steam
+$removeparam=snr,domain=steamcommunity.com|steampowered.com
