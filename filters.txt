@@ -87,3 +87,10 @@ www.photopea.com##.bnotify.window
 
 ! Steam
 $removeparam=snr,domain=steamcommunity.com|steampowered.com
+
+! wikipedia
+! wikipedia.org###centralNotice
+! wikipedia.org###asn-dismissable-notice
+wikipedia.org###siteNotice
+!
+wikibooks.org###siteNotice
