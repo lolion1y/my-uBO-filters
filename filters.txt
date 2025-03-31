@@ -1,6 +1,6 @@
-! Title: uBlock filters
+! Title: My uBlock filters
 ! Expires: 12 hours
-! Homepage: https://github.com/lolion1y/uBO-rules
+! Homepage: https://github.com/lolion1y/my-uBO-filters
 
 ! baike.baidu.com
 baike.baidu.com###J-invoke-baiduApp-float
