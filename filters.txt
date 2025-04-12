@@ -7,7 +7,7 @@ baike.baidu.com###J-invoke-baiduApp-float
 
 ! zh.moegirl.org.cn
 zh.moegirl.org.cn##.user-area > .flex
-zh.moegirl.org.cn##.n-button--medium-type.n-button--primary-type.n-button.__button-light-1379ga8-dlmmp
+zh.moegirl.org.cn###moe-open-in-app
 zh.moegirl.org.cn##.n-notification-main
 
 ! kemono.su
