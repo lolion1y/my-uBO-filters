@@ -2,32 +2,32 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/lolion1y/my-uBO-filters
 
-! baike.baidu.com
+! baidu
 baike.baidu.com###J-invoke-baiduApp-float
 
-! zh.moegirl.org.cn
-zh.moegirl.org.cn##.user-area > .flex
-zh.moegirl.org.cn###moe-open-in-app
-zh.moegirl.org.cn##.n-notification-main
+! moegirl
+moegirl.org.cn##.user-area > .flex
+moegirl.org.cn###moe-open-in-app
+moegirl.org.cn##.n-notification-main
 
-! kemono.su
+! kemono
 kemono.su##.slideAnimation--K36g6.root--ujvuu
 
 ! reddit
 www.reddit.com##xpromo-untagged-content-blocking-modal
 www.reddit.com##xpromo-nsfw-blocking-modal
 
-! sspai.com
+! sspai
 sspai.com##.article-wrapper.postPage > .ss__button
 
-! post.m.smzdm.com
+! smzdm
 post.m.smzdm.com##.fixed-logo
 post.m.smzdm.com##.wrapper
 
-! m.sohu.com
+! sohu
 m.sohu.com###CallAppContainer
 
-! konachan.com
+! konachan
 ||tm-offers.gamingadult.com/ifr/$subdocument
 ||tbib.org/gaming/kona.php$subdocument
 
@@ -41,13 +41,13 @@ www.pixiv.net##.hKYKav.sc-4nj1pr-5
 ! tech.groww.in
 tech.groww.in##.vt.vs.vr.m
 
-! www.windy.com
+! windy.com
 www.windy.com##.svelte-l1y6f8.get-premium--ribbon.get-premium
 
-! nilesoft.org
+! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
 
-! www.cnblogs.com
+! cnblogs
 www.cnblogs.com##.forpc.imagebar
 www.cnblogs.com##.charm-bar-wrapper
 
@@ -88,3 +88,9 @@ $removeparam=snr,domain=steamcommunity.com|steampowered.com
 wikipedia.org###siteNotice
 !
 wikibooks.org###siteNotice
+
+! coolapk
+www.coolapk.com###sidebar
+www.coolapk.com##.hot-reply-footer:has(.app-open)
+www.coolapk.com##.mobile-display
+
