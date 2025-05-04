@@ -94,3 +94,5 @@ www.coolapk.com###sidebar
 www.coolapk.com##.hot-reply-footer:has(.app-open)
 www.coolapk.com##.mobile-display
 
+! vscode
+vscode.dev###workbench\.parts\.banner:remove()
