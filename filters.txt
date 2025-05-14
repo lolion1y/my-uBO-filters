@@ -93,3 +93,13 @@ wikibooks.org###siteNotice
 www.coolapk.com###sidebar
 www.coolapk.com##.hot-reply-footer:has(.app-open)
 www.coolapk.com##.mobile-display
+
+! 4hu.tv
+hu.tv##+js(set-cookie, newurl)
+
+! gofile.io
+gofile.io###index_ads
+
+! idol.sankakucomplex.com
+idol.sankakucomplex.com###news-ticker
+idol.sankakucomplex.com##.carousel
