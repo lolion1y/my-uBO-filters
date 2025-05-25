@@ -103,3 +103,6 @@ gofile.io###index_ads
 ! idol.sankakucomplex.com
 idol.sankakucomplex.com###news-ticker
 idol.sankakucomplex.com##.carousel
+
+! gamer.com.tw
+ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1)
