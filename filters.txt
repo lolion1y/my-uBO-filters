@@ -106,3 +106,9 @@ idol.sankakucomplex.com##.carousel
 
 ! gamer.com.tw
 ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1)
+
+! 360doc
+www.360doc.cn##[src^="https://pxjtnhq.360doc.cn"]
+
+! njav.tv
+njav.tv##.ad-floating
