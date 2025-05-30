@@ -71,8 +71,10 @@ supjav.com##div[class*="slideAnimation"]
 ! vk
 vk.com##.PageBottomBanner
 ! m.vk.com##.Popup_open.Popup.ModalMenu:remove()
-m.vk.com##.Popup__overlay
-m.vk.com##.Popup__wrap
+m.vk.com##.ModalMenu__body
+vk.com##.Popup__overlay
+vk.com##.PageBottomBanner--unauth.PageBottomBanner
+!vk.com##.Popup__wrap
 vk.com##[id*="box_layer"]:remove()
 vk.com##body:style(overflow: auto !important)
 
