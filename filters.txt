@@ -69,12 +69,10 @@ blog.csdn.net##.active.openApp
 supjav.com##div[class*="slideAnimation"]
 
 ! vk
-vk.com##.PageBottomBanner
 ! m.vk.com##.Popup_open.Popup.ModalMenu:remove()
-m.vk.com##.ModalMenu__body
 vk.com##.Popup__overlay
-vk.com##.PageBottomBanner--unauth.PageBottomBanner
-!vk.com##.Popup__wrap
+vk.com##.PageBottomBanner
+vk.com##div[class="ModalMenu ModalMenu--default Popup Popup_open"] > .Popup__wrap
 vk.com##[id*="box_layer"]:remove()
 vk.com##body:style(overflow: auto !important)
 
@@ -114,3 +112,8 @@ www.360doc.cn##[src^="https://pxjtnhq.360doc.cn"]
 
 ! njav.tv
 njav.tv##.ad-floating
+
+! chuhaizhinan.com
+chuhaizhinan.com##.ays-pb-close-popup-with-esc
+chuhaizhinan.com##.size-full.attachment-full.image
+
