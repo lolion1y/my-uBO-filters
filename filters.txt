@@ -117,3 +117,9 @@ njav.tv##.ad-floating
 chuhaizhinan.com##.ays-pb-close-popup-with-esc
 chuhaizhinan.com##.size-full.attachment-full.image
 
+! xinwenba.net
+xinwenba.net###randomlink
+
+! tsdm
+www.tsdm39.com##.wap_doze
+www.tsdm39.com###ts_sidebar_base
