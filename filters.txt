@@ -123,3 +123,6 @@ xinwenba.net###randomlink
 ! tsdm
 www.tsdm39.com##.wap_doze
 www.tsdm39.com###ts_sidebar_base
+
+! alistgo
+alistgo.com##.ads-container
