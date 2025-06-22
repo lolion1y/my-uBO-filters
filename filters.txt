@@ -37,6 +37,8 @@ www.pixiv.net##[id^="adsdk"]
 www.pixiv.net##.ad-frame-container
 www.pixiv.net##[class*=premium-lead]
 www.pixiv.net##.hKYKav.sc-4nj1pr-5
+!extension
+www.pixiv.net##.xz_msg_box
 
 ! tech.groww.in
 tech.groww.in##.vt.vs.vr.m
