@@ -11,7 +11,8 @@ moegirl.org.cn###moe-open-in-app
 moegirl.org.cn##.n-notification-main
 
 ! kemono
-kemono.su##.slideAnimation--K36g6.root--ujvuu
+kemono.su##.slideAnimation--K36g6
+kemono.cr##.slideAnimation--K36g6
 
 ! reddit
 www.reddit.com##xpromo-untagged-content-blocking-modal
