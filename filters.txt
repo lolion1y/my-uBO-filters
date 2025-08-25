@@ -129,3 +129,12 @@ www.tsdm39.com###ts_sidebar_base
 
 ! alistgo
 alistgo.com##[class*=ad-],[class*=ads]
+
+! ascii2d.net
+ascii2d.net##.hidden-md-up.p-t-1
+
+! apkmirror.com
+www.apkmirror.com##.apkm-timed-slider
+
+! mi
+api.miwifi.com/res_stat/track.gif
