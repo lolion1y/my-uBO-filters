@@ -145,3 +145,6 @@ api.miwifi.com/res_stat/track.gif
 telemetr.io##.bg-blur
 telemetr.io##.banner
 telemetr.io##.gap-2.hidden
+
+! bgm0n1ine
+bangumi.online##div:has(> ul > li > div > img[src*="app.png"])
