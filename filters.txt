@@ -2,6 +2,9 @@
 ! Expires: 12 hours
 ! Homepage: https://github.com/lolion1y/my-uBO-filters
 
+! fuck webrtc
+*##+js(nowebrtc)
+
 ! baidu
 baike.baidu.com###J-invoke-baiduApp-float
 
@@ -156,3 +159,6 @@ bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
 xfolio.jp##+js(set-cookie, xfolio-cookie-popup, true)
 xfolio.jp##+js(aeld, contextmenu)
 xfolio.jp##+js(aeld, copy)
+
+! dmmiku.com
+dmmiku.com###vodshare
