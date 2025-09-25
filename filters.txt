@@ -150,3 +150,9 @@ telemetr.io##.gap-2.hidden
 bangumi.online##div:has(> ul > li > div > img[src*="app.png"])
 bangumi.online##a:has(> div > img[alt="Donate"])
 bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
+
+! xfolio.jp
+@@||xfolio.jp/lu_assets/cookie-popup.$script,1p
+xfolio.jp##+js(set-cookie, xfolio-cookie-popup, true)
+xfolio.jp##+js(aeld, contextmenu)
+xfolio.jp##+js(aeld, copy)
