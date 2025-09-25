@@ -1,5 +1,5 @@
 ! Title: My uBlock filters
-! Expires: 12 hours
+! Expires: 8 hours
 ! Homepage: https://github.com/lolion1y/my-uBO-filters
 
 ! fuck webrtc
