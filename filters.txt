@@ -149,3 +149,4 @@ telemetr.io##.gap-2.hidden
 ! bgm0n1ine
 bangumi.online##div:has(> ul > li > div > img[src*="app.png"])
 bangumi.online##a:has(> div > img[alt="Donate"])
+bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
