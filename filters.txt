@@ -163,3 +163,6 @@ xfolio.jp##img:style(pointer-events: auto !important;)
 
 ! dmmiku.com
 dmmiku.com###vodshare
+
+! pornhub
+pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2)
