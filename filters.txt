@@ -166,3 +166,12 @@ dmmiku.com###vodshare
 
 ! pornhub
 pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2)
+
+! pixivic.net
+m.pixivic.net##div:has(> .pixivic-alert-wrapper)
+m.pixivic.net##.download
+m.pixivic.net##div.tabs-item:nth-of-type(2)
+m.pixivic.net##div.tabs-item:nth-of-type(4)
+m.pixivic.net##div.tabs-item:nth-of-type(5)
+m.pixivic.net##.container > a[href*="/app"]
+m.pixivic.net##.container > a[href$="/discuss"]
