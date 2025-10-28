@@ -158,6 +158,7 @@ bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
 ! xfolio.jp
 ! @@||xfolio.jp/lu_assets/cookie-popup.$script,1p
 ! xfolio.jp##.cookie-consent
+xfolio.jp##.headerInfo
 xfolio.jp##+js(set-cookie, xfolio-cookie-popup, true)
 xfolio.jp##+js(aeld, contextmenu)
 xfolio.jp##+js(aeld, copy)
