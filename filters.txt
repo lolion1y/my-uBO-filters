@@ -27,6 +27,7 @@ sspai.com##.article-wrapper.postPage > .ss__button
 ! smzdm
 post.m.smzdm.com##.fixed-logo
 post.m.smzdm.com##.wrapper
+post.m.smzdm.com##.damo-footer-open-app
 
 ! sohu
 m.sohu.com###CallAppContainer
