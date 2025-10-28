@@ -193,5 +193,5 @@ gelbooru.com##.footerAd2:remove()
 gelbooru.com##.mainBodyPadding > center:remove()
 gelbooru.com##.mainBodyPadding > div[id*="clb-spot"]:remove()
 gelbooru.com##.mainBodyPadding > div[data-cl-spot]:remove()
-gelbooru.com##main > div[class="thumbnail-container"] + div:has(> div[data-cl-spot]):remove
+gelbooru.com##main > div[class="thumbnail-container"] + div:has(> div[data-cl-spot]):remove()
 gelbooru.com##main > div:has(> div[id*="clb-spot"] > iframe):remove()
