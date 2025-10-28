@@ -186,11 +186,11 @@ smc.peering.tw##+js(set-local-storage-item, hasSeenWarning, true)
 
 ! gelbooru
 gelbooru.com###motd
-gelbooru.com##div:has(> [href^="https://v4.dvdstr.com"])
+gelbooru.com##div:has(> [href^="https://v4.dvdstr.com"]):remove()
 gelbooru.com##.headerAd:remove()
 gelbooru.com##.footerAd:remove()
 gelbooru.com##.footerAd2:remove()
 gelbooru.com##.mainBodyPadding > center:remove()
-gelbooru.com##main > div:has(> div[data-cl-spot]):remove()
-gelbooru.com##main > div:has(> div[id*="clb-spot"]):remove()
+gelbooru.com##.container > main > div:has(> div[data-cl-spot]):remove()
+gelbooru.com##main > div:has(> div[id*="clb-spot"] > iframe):remove()
 gelbooru.com##.mainBodyPadding > div[id*="clb-spot"]:remove()
