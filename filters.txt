@@ -12,6 +12,7 @@ baike.baidu.com###J-invoke-baiduApp-float
 moegirl.org.cn##.user-area > .flex
 moegirl.org.cn###moe-open-in-app
 moegirl.org.cn##.n-notification-main
+moegirl.org.cn##+js(aeld, copy)
 
 ! kemono
 kemono.su##.slideAnimation--K36g6
