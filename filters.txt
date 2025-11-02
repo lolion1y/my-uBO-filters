@@ -46,8 +46,18 @@ www.pixiv.net##.xz_msg_box
 tech.groww.in##.vt.vs.vr.m
 
 ! windy.com
-!www.windy.com##.svelte-l1y6f8.get-premium--ribbon.get-premium
 www.windy.com##.open-in-app
+www.windy.com##.premium-button:style(animation-duration: unset !important; animation-name: none !important)
+www.windy.com##body > #search > div[data-plugin="startup-articles"]
+www.windy.com##body > #search > div#startup-promo:has(.premium-button)
+www.windy.com##body > span > #plugin-menu section.plugin__content > .premium-button
+www.windy.com##body > span > #plugin-picker-mobile section.picker-buttons > div > div.button:contains("Support")
+!www.windy.com##body > div > span[data-plugin="rhpane-top"] > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
+www.windy.com###desktop-premium-icon
+!www.windy.com##body > div > span > #plugin-detail > section.main-table > div > div > div > .get-premium
+www.windy.com##.get-premium
+!ww.windy.com##body.premium-calendar:remove-class(premium-calendar)
+www.windy.com##+js(rc, premium-calendar, body, stay)
 
 ! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
