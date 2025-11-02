@@ -46,7 +46,8 @@ www.pixiv.net##.xz_msg_box
 tech.groww.in##.vt.vs.vr.m
 
 ! windy.com
-www.windy.com##.svelte-l1y6f8.get-premium--ribbon.get-premium
+!www.windy.com##.svelte-l1y6f8.get-premium--ribbon.get-premium
+www.windy.com##.open-in-app
 
 ! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
