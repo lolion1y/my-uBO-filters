@@ -203,3 +203,6 @@ saucenao.com###headerbarmiddle > div:contains("Donate"):style(visibility: hidden
 saucenao.com##div:has(> a > img[alt*="Donate"])
 saucenao.com##+js(set-cookie, hide-message-2, 1)
 saucenao.com###message:has(a[href*="upgrade"])
+
+! taobao
+market.m.taobao.com/app/starlink/wakeup-transit/pages/download##+js(set, confirm, falseFunc)
