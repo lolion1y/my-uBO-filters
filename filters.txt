@@ -60,6 +60,7 @@ www.windy.com##+js(rc, premium-calendar, body, stay)
 !www.windy.com##body.premium-calendar:remove-class(premium-calendar)
 www.windy.com##body > div#logo-wrapper > .animated-windy-logo
 www.windy.com##body > section > span > div#plugin-mobile-calendar > .animated-windy-logo
+www.windy.com$removeparam=source
 
 ! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
