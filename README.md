@@ -4,3 +4,14 @@
 ```
 https://raw.githubusercontent.com/lolion1y/my-uBO-filters/refs/heads/main/filters.txt
 ```
+## Notice
+To use all filtering rules, please copy the file link to your browser extension's advanced settings, specifically the `trustedListPrefixes` field.
+
+e.g.
+```
+trustedListPrefixes ublock- https://raw.githubusercontent.com/lolion1y/my-uBO-filters/refs/heads/main/filters.txt
+```
+
+Currently using `trusted-*`:
+* vscode
+  * trusted-click-element
