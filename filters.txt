@@ -38,8 +38,7 @@ www.pixiv.net##.banner-ad-footer-scale
 www.pixiv.net##[id^="adsdk"]
 www.pixiv.net##.ad-frame-container
 www.pixiv.net##[class*=premium-lead]
-www.pixiv.net##.hKYKav.sc-4nj1pr-5
-!extension
+! pixiv-extension
 www.pixiv.net##.xz_msg_box
 
 ! tech.groww.in
@@ -53,11 +52,11 @@ www.windy.com##body > #search > div#startup-promo:has(.premium-button)
 www.windy.com##body > span > #plugin-menu > section.plugin__content > .premium-button
 www.windy.com##body > span > #plugin-picker-mobile > section > section.picker-buttons > div > div.button:contains("Support")
 www.windy.com###desktop-premium-icon
-!www.windy.com##body > div > span > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
+! www.windy.com##body > div > span > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
 www.windy.com##.get-premium
-!www.windy.com##body > div > span > #plugin-detail > section.main-table > div > div > div > .get-premium
+! www.windy.com##body > div > span > #plugin-detail > section.main-table > div > div > div > .get-premium
 www.windy.com##+js(rc, premium-calendar, body, stay)
-!www.windy.com##body:watch-attr(class):remove-class(premium-calendar)
+! www.windy.com##body:watch-attr(class):remove-class(premium-calendar)
 www.windy.com##body > div#logo-wrapper > .animated-windy-logo
 www.windy.com##body > section > span > div#plugin-mobile-calendar > .animated-windy-logo
 www.windy.com$removeparam=source
@@ -104,7 +103,8 @@ $removeparam=snr,domain=steamcommunity.com|steampowered.com
 ! wikipedia.org###centralNotice
 ! wikipedia.org###asn-dismissable-notice
 wikipedia.org###siteNotice
-!
+
+! wikibooks.org
 wikibooks.org###siteNotice
 
 ! coolapk
@@ -147,13 +147,13 @@ alistgo.com##[class*=ad-],[class*=ads]
 
 ! ascii2d.net
 ascii2d.net##.row > div > h5:contains("検索") + br
-!ascii2d.net##.row > div > p:has(a[href="/donate"])
 ascii2d.net##.row > div > p:has(br.hidden-md-up)
-!ascii2d.net##.row > .hidden-md-down
+! ascii2d.net##.row > div > p:has(a[href="/donate"])
 ascii2d.net##.row > .hidden-md-down > .message
 ascii2d.net##.row > .hidden-md-down > div:contains("広告")
 ascii2d.net##.row > .hidden-md-down > div:contains("Donate")
 ascii2d.net##.row > div > div:has(> .hidden-md-up > h5:contains("広告"))
+! ascii2d.net##.row > .hidden-md-down
 
 ! apkmirror.com
 www.apkmirror.com##.apkm-timed-slider
@@ -184,19 +184,18 @@ xfolio.jp##img:style(pointer-events: auto !important;)
 dmmiku.com###vodshare
 
 ! pornhub
-pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2)
-!pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, reload, 1)
+pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, , reload, 1)
 pornhub.*/_xa/ads
 trafficjunky.com^$3p
-pornhub.com##+js(rc, blurredAVModal)
-pornhub.com##+js(rc, is-blurred)
-pornhub.com##+js(rc, isOpenMTubes)
-!pornhub.com##body:watch-attr(class):remove-class(blurredAVModal)
-!pornhub.com##body:watch-attr(class):remove-class(is-blurred)
-!pornhub.com##body:watch-attr(class):remove-class(isOpenMTubes)
-pornhub.com###ageDisclaimerOverlay
-pornhub.com###ageDisclaimerMainBG
-pornhub.com##.ageDisclaimer
+! pornhub.com##+js(rc, blurredAVModal)
+! pornhub.com##+js(rc, is-blurred)
+! pornhub.com##+js(rc, isOpenMTubes)
+! pornhub.com##body:watch-attr(class):remove-class(blurredAVModal)
+! pornhub.com##body:watch-attr(class):remove-class(is-blurred)
+! pornhub.com##body:watch-attr(class):remove-class(isOpenMTubes)
+! pornhub.com###ageDisclaimerOverlay
+! pornhub.com###ageDisclaimerMainBG
+! pornhub.com##.ageDisclaimer
 
 ! pixivic.net
 ! m.pixivic.net##+js(set-local-storage-item, alert-233, true)
