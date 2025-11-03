@@ -34,6 +34,8 @@ m.sohu.com###CallAppContainer
 ||tbib.org/gaming/kona.php$subdocument
 
 ! pixiv
+www.pixiv.net##body > div#__next > div > div > span:has(> div > div > span > a[href*="/info.php"])
+! www.pixiv.net##+js(set-local-storage-item, terms_of_use_location_202511_pre, true)
 www.pixiv.net##.banner-ad-footer-scale
 www.pixiv.net##[id^="adsdk"]
 www.pixiv.net##.ad-frame-container
