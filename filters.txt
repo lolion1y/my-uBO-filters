@@ -234,3 +234,11 @@ saucenao.com###message:has(a[href*="upgrade"])
 ! taobao
 m.taobao.com/app/starlink/wakeup-transit/pages/download##+js(set, confirm, falseFunc)
 m.taobao.com/app/starlink/wakeup-transit/pages/download###copyInput
+
+! vscode
+! vscode.dev##div:has(> #workbench\.parts\.banner.part.banner > div.icon-container.custom-icon):remove()
+vscode.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a)
+vscode.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a, , 9900)
+! github.dev##div:has(> #workbench\.parts\.banner.part.banner > div.icon-container.custom-icon):remove()
+github.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a)
+github.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a, , 9900)
