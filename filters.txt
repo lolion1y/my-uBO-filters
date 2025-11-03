@@ -184,7 +184,9 @@ xfolio.jp##img:style(pointer-events: auto !important;)
 dmmiku.com###vodshare
 
 ! pornhub
-pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2)
+pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, reload, 1)
+pornhub.*/_xa/ads
+trafficjunky.com^$3p
 
 ! pixivic.net
 ! m.pixivic.net##+js(set-local-storage-item, alert-233, true)
