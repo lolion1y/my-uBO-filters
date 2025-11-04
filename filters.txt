@@ -34,8 +34,15 @@ m.sohu.com###CallAppContainer
 ||tbib.org/gaming/kona.php$subdocument
 
 ! pixiv
-www.pixiv.net##body > div#__next > div > div > span:has(> div > div > span > a[href*="/info.php"])
+www.pixiv.net##body > div > div > div > span:has(> div > div > span > a[href*="/info.php"])
 ! www.pixiv.net##+js(set-local-storage-item, terms_of_use_location_202511_pre, true)
+! www.pixiv.net##body > div[role] > div > div > div > div > div > div:has(> a[href^="/info.php"])
+! www.pixiv.net##body > div[role] > div > div > div > div > div > div > div:has(> a[href^="/info.php"])
+! www.pixiv.net##body > div > div > div > div > div > div > div > div > div:has(> a[href^="/info.php"])
+! www.pixiv.net##+js(set-local-storage-item, LastReadInfoId, '"12869"')
+www.pixiv.net##body > div[role] > div > div > div > div > div > div > iframe[src^="https://imp.pixiv.net/premium_lp"]
+www.pixiv.net##body > div[role] > div > div > div > div > div > div > a[href^="/premium/lead/lp"]
+www.pixiv.net##body > div > div > div > div > div > div > .grid.items-center > div > div > div > div:has(iframe[src^="https://imp.pixiv.net/premium_lp"] + a[href^="/premium/lead/lp"])
 www.pixiv.net##.banner-ad-footer-scale
 www.pixiv.net##[id^="adsdk"]
 www.pixiv.net##.ad-frame-container
