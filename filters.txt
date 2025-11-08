@@ -60,6 +60,8 @@ www.windy.com##body > #search > div[data-plugin="startup-articles"]
 www.windy.com##body > #search > div#startup-promo:has(.premium-button)
 www.windy.com##body > span > #plugin-menu > section.plugin__content > .premium-button
 www.windy.com##body > span > #plugin-picker-mobile > section > section.picker-buttons > div > div.button:contains("Support")
+www.windy.com##body > span > #plugin-subscription:has([src*="premium"])
+www.windy.com##body > section#bottom-wrapper > span > div > div.controls > div > div > div > div.premium-button
 www.windy.com###desktop-premium-icon
 ! www.windy.com##body > div > span > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
 www.windy.com##.get-premium
