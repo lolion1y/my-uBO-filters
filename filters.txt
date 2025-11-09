@@ -9,9 +9,16 @@
 baike.baidu.com###J-invoke-baiduApp-float
 
 ! moegirl
-moegirl.org.cn##.user-area > .flex
+moegirl.org.cn##.n-notification-container:has(.tabler-icon-bell-ringing)
 moegirl.org.cn###moe-open-in-app
-moegirl.org.cn##.n-notification-main
+moegirl.org.cn##header > #moe-global-header-inner > div > div.user-area > div.flex > a[href^="https://app.moegirl.org.cn"]
+moegirl.org.cn##header > #moe-global-header-inner > div > div.user-area > div.flex > div:has(img[src^="https://storage.moegirl.org.cn/console-plus"])
+moegirl.org.cn##header > #moe-global-header-inner > div > div.user-area > div.user-links:has(img[src^="https://storage.moegirl.org.cn/console-plus"])
+moegirl.org.cn##header > #moe-global-header-inner > div > div.links-area > div.flex > a[href^="https://app.moegirl.org.cn"]
+moegirl.org.cn##header > #moe-global-header-inner > div > div.links-area > div.flex > button:nth-child(1):has(svg.tabler-icon-briefcase)
+moegirl.org.cn###footer-copyright-text div.plainlinks a[href^="https://app.moegirl.org.cn/?"]
+moegirl.org.cn###footer-copyright-text div.plainlinks a[href^="https://app.moegirl.org.cn/contact"]
+moegirl.org.cn###homeland-topics-view div.site-statistics > div.extra-buttons > a[href^="https://app.moegirl.org.cn"]
 moegirl.org.cn##+js(aeld, copy)
 
 ! reddit
