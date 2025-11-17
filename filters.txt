@@ -258,3 +258,10 @@ vscode.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.bann
 ! github.dev##div:has(> #workbench\.parts\.banner.part.banner > div.icon-container.custom-icon):remove()
 github.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a)
 github.dev##+js(trusted-click-element, div > #workbench\.parts\.banner.part.banner > .custom-icon.icon-container ~ div.action-container > div > ul > li > a, , 9900)
+
+! imgur
+imgur.com##.Gallery-Sidebar
+imgur.com##.BottomRecirc
+imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/random-meme-dump"])
+imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/i-had-to-share"])
+imgur.com##.NavbarArcadeButton
