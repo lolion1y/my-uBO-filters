@@ -265,3 +265,6 @@ imgur.com##.BottomRecirc
 imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/random-meme-dump"])
 imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/i-had-to-share"])
 imgur.com##.NavbarArcadeButton
+
+! bahamut
+ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1, , reload, 1)
