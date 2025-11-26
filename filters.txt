@@ -268,3 +268,6 @@ imgur.com##.NavbarArcadeButton
 
 ! bahamut
 ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1, , reload, 1)
+
+! www.patreon.com
+www.patreon.com##+js(set-cookie, can_see_nsfw, 1, , reload, 1)
