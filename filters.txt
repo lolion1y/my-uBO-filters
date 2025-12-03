@@ -275,3 +275,6 @@ www.patreon.com##+js(set-cookie, can_see_nsfw, 1, , reload, 1)
 
 ! arca.live
 arca.live##+js(set-cookie, allow_sensitive_media, true)
+
+! codeberg.org
+codeberg.org##+js(set-local-storage-item, tou-announcement, dismissed)
