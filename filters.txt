@@ -278,3 +278,6 @@ arca.live##+js(set-cookie, allow_sensitive_media, true)
 
 ! codeberg.org
 codeberg.org##+js(set-local-storage-item, tou-announcement, dismissed)
+
+! feishu
+feishu.cn##body > div > div > div > div[class*="_clear"][style*="pointer-events: none"]
