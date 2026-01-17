@@ -281,3 +281,6 @@ codeberg.org##+js(set-local-storage-item, tou-announcement, dismissed)
 
 ! feishu
 feishu.cn##body > div > div > div > div[class*="_clear"][style*="pointer-events: none"]
+
+! sleazyfork.org
+sleazyfork.org##.ad
