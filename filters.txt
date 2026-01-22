@@ -284,3 +284,8 @@ feishu.cn##body > div > div > div > div[class*="_clear"][style*="pointer-events:
 
 ! sleazyfork.org
 sleazyfork.org##.ad
+
+! fanbox
+fanbox.cc$removeparam=utm_campaign
+fanbox.cc$removeparam=utm_medium
+fanbox.cc$removeparam=utm_source
