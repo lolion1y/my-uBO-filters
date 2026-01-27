@@ -186,9 +186,10 @@ telemetr.io##.banner
 telemetr.io##.gap-2.hidden
 
 ! bgm0n1ine
-bangumi.online##div:has(> ul > li > div > img[src*="app.png"])
+! bangumi.online##div:has(> ul > li > div > img[src*="app.png"])
 bangumi.online##a:has(> div > img[alt="Donate"])
 bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
+bangumi.online##div > div > div:has(a > img[src*="logo_text.png"]):style(padding: 0 5px 0 0 !important)
 
 ! xfolio.jp
 ! @@||xfolio.jp/lu_assets/cookie-popup.$script,1p
