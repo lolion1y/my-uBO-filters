@@ -290,3 +290,7 @@ sleazyfork.org##.ad
 fanbox.cc$removeparam=utm_campaign
 fanbox.cc$removeparam=utm_medium
 fanbox.cc$removeparam=utm_source
+
+! ydl.13aka.p1u5
+ydl.baka.plus##+js(set-local-storage-item, ncm_downloader_disclaimer_accepted, true)
+ydl.baka.plus##+js(set-local-storage-item, qq_music_unlocked, true)
