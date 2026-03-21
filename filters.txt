@@ -282,6 +282,7 @@ codeberg.org##+js(set-local-storage-item, tou-announcement, dismissed)
 
 ! feishu
 feishu.cn##body > div > div > div > div[class*="_clear"][style*="pointer-events: none"]
+feishu.cn##.ssrWaterMark
 
 ! sleazyfork.org
 sleazyfork.org##.ad
@@ -306,3 +307,12 @@ pcgamingwiki.com^$removeparam=utm_source
 
 ! twitter
 $removeparam=utm_source,domain=twitter.com|x.com
+
+! porkbun
+porkbun.com$removeparam=prb
+porkbun.com$removeparam=search
+porkbun.com$removeparam=csrf_pb
+porkbun.com##.container.notHomepageTopContainer > .black:remove()
+!porkbun.com###bulkDiscountNotice
+porkbun.com###searchResultsDomainContainerSide
+!porkbun.com###searchResultsDomainContainerSide
