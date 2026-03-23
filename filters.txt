@@ -299,7 +299,7 @@ fanbox.cc$removeparam=utm_source
 ! ydl.13aka.p1u5
 ydl.baka.plus##+js(set-local-storage-item, ncm_downloader_disclaimer_accepted, true)
 ydl.baka.plus##+js(set-local-storage-item, qq_music_unlocked, true)
-ydl.baka.plus##+js(set-local-storage-item, ncm_verified, 1)
+ydl.baka.plus##+js(set-local-storage-item, ncm-verified, 1)
 ! ydl.baka.plus##+js(set-local-storage-item, qqMusicBannerDismissed, true)
 
 ! steam
