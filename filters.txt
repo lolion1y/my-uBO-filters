@@ -102,7 +102,6 @@ www.ptt.cc/ask/over18##+js(trusted-click-element,button.btn-big[value="yes"])
 
 ! csdn
 blog.csdn.net##.wap-shadowbox.weixin-shadowbox
-blog.csdn.net##.feed-Sign-weixin
 blog.csdn.net##.active.openApp
 
 ! supjav
