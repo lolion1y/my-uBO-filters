@@ -324,4 +324,4 @@ porkbun.com###searchResultsDomainContainerSide
 ! porkbun.com###searchResultsDomainContainerSide
 
 ! GitHub
-github.com$removeparam=tab
+github.com/*?tab=readme-ov-file$removeparam=tab
