@@ -322,3 +322,6 @@ porkbun.com##.container.notHomepageTopContainer > .black:remove()
 ! porkbun.com###bulkDiscountNotice
 porkbun.com###searchResultsDomainContainerSide
 ! porkbun.com###searchResultsDomainContainerSide
+
+! GitHub
+github.com$removeparam=tab
