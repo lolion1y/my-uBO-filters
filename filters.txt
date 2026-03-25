@@ -90,8 +90,6 @@ www.cnblogs.com##.charm-bar-wrapper
 ||accounts.google.com/gsi/iframe
 ! Search
 google.*/search$removeparam=sxsrf
-! https://support.google.com/websearch/thread/196635100/google-advanced-search-url-sxsrf-what-does-that-mean?hl=en
-! https://github.com/AdguardTeam/FiltersRegistry/blob/aa8148564dc92ed412467f6f30d790bf344176d2/filters/filter_17_TrackParam/filter.txt#L3141
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
