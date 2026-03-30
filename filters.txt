@@ -331,3 +331,6 @@ market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
 market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
 market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
 market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
+
+! sheerid
+url*.sheerid.com/wf/open?upn=
