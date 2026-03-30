@@ -317,3 +317,17 @@ porkbun.com###searchResultsDomainContainerSide
 
 ! GitHub
 github.com/*?tab=readme-ov-file$removeparam=tab
+
+! cmb
+! market.cmbchina.com/personal/index/index.htm$removeparam=version
+market.cmbchina.com/personal/index/index.htm$removeparam=DeviceType
+market.cmbchina.com/personal/index/index.htm$removeparam=SystemVersion
+market.cmbchina.com/personal/index/index.htm$removeparam=ClientNo
+! market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=version
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=DeviceType
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=SystemVersion
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
+! market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=version
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
