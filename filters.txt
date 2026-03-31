@@ -119,9 +119,7 @@ www.photopea.com##.bnotify.window
 ! Steam
 $removeparam=snr,domain=steamcommunity.com|steampowered.com
 store.steampowered.com/app$removeparam=curator_clanid
-store.steampowered.com/app$removeparam=utm_source
 steamcommunity.com/app$removeparam=curator_clanid
-steamcommunity.com/app$removeparam=utm_source
 
 ! wikipedia
 ! wikipedia.org###centralNotice
@@ -334,3 +332,7 @@ market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
 
 ! sheerid
 url*.sheerid.com/wf/open?upn=
+
+! utm_*
+$removeparam=utm_source
+$removeparam=utm_campaign
