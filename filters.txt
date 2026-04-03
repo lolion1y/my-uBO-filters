@@ -336,3 +336,6 @@ url*.sheerid.com/wf/open?upn=
 ! utm_*
 $removeparam=utm_source
 $removeparam=utm_campaign
+
+! regery.com
+regery.com$removeparam=pr
