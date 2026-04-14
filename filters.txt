@@ -339,3 +339,6 @@ $removeparam=utm_campaign
 
 ! regery.com
 regery.com$removeparam=pr
+
+! www.right.com.cn
+www.right.com.cn##[class*="-ad"]
