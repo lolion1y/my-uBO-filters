@@ -334,11 +334,18 @@ market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
 url*.sheerid.com/wf/open?upn=
 
 ! utm_*
-$removeparam=utm_source
-$removeparam=utm_campaign
+! $removeparam=utm_source
+! $removeparam=utm_campaign
+$removeparam=/^utm_/
 
 ! regery.com
 regery.com$removeparam=pr
 
 ! www.right.com.cn
 www.right.com.cn##[class*="-ad"]
+
+! web.vip.miui.com
+web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
+web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
+web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
+web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
