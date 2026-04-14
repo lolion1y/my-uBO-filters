@@ -345,7 +345,7 @@ regery.com$removeparam=pr
 www.right.com.cn##[class*="-ad"]
 
 ! web.vip.miui.com
-web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
-web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
 web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
 web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
+web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
+web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
