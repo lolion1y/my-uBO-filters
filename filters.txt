@@ -350,3 +350,7 @@ web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
 web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
 web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
 web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
+
+! bilibili
+bilibili.com^$removeparam=bbid
+bilibili.com^$removeparam=ts
