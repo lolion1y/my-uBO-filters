@@ -303,6 +303,7 @@ pcgamingwiki.com^$removeparam=utm_source
 
 ! twitter
 $removeparam=utm_source,domain=twitter.com|x.com
+$removeparam=launch_app_store,domain=mobile.twitter.com|m.x.com
 
 ! porkbun
 porkbun.com$removeparam=prb
