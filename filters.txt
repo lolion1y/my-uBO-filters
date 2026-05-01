@@ -335,8 +335,6 @@ porkbun.com###searchResultsDomainContainerSide
 ||url*.sheerid.com/wf/open?upn=
 
 ! utm_*
-! $removeparam=utm_source
-! $removeparam=utm_campaign
 $removeparam=/^utm_/
 
 ! regery.com
