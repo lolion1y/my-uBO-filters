@@ -354,3 +354,13 @@ web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
 ! bilibili
 bilibili.com^$removeparam=bbid
 bilibili.com^$removeparam=ts
+
+! www.pinterest.com
+www.pinterest.com##div:has([data-test-id*="signup-mask"])
+
+! skebetter.com
+skebetter.com##div:has(> [id*="ancher_ad"])
+skebetter.com##div:has(+ div:has([id*="interstitial_image"])[data-state])
+skebetter.com##div:has([id*="interstitial_image"])
+skebetter.com##body:style(pointer-events: unset !important)
+skebetter.com##div:has(> .horizontal-list-fanza)
