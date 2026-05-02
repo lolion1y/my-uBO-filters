@@ -377,8 +377,11 @@ skebetter.com##div:has(> .horizontal-list-fanza)
 ||music.163.com^$removeparam=inviterId
 ||music.163.com^$removeparam=inviterid
 ||music.163.com^$removeparam=isFLT
+||music.163.com^$removeparam=market
 ||music.163.com^$removeparam=nm_style
+||music.163.com^$removeparam=page
 ||music.163.com^$removeparam=playerUIModeId
+||music.163.com^$removeparam=redirectFromExternal
 ||music.163.com^$removeparam=sc
 ||music.163.com^$removeparam=share_app
 ||music.163.com^$removeparam=songId
