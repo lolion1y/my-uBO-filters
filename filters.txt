@@ -362,3 +362,28 @@ skebetter.com##div:has(+ div:has([id*="interstitial_image"])[data-state])
 skebetter.com##div:has([id*="interstitial_image"])
 skebetter.com##body:style(pointer-events: unset !important)
 skebetter.com##div:has(> .horizontal-list-fanza)
+
+! Netease
+! music
+||music.163.com^$removeparam=H5_DownloadVIPGift
+||music.163.com^$removeparam=PlayerStyles_SynchronousSharing
+||music.163.com^$removeparam=app_version
+||music.163.com^$removeparam=dlt
+||music.163.com^$removeparam=encryptUid
+||music.163.com^$removeparam=fx-listentest
+||music.163.com^$removeparam=fx-wechatnew
+||music.163.com^$removeparam=fx-wordtest
+||music.163.com^$removeparam=fx-wxqd
+||music.163.com^$removeparam=inviterId
+||music.163.com^$removeparam=inviterid
+||music.163.com^$removeparam=isFLT
+||music.163.com^$removeparam=nm_style
+||music.163.com^$removeparam=playerUIModeId
+||music.163.com^$removeparam=sc
+||music.163.com^$removeparam=share_app
+||music.163.com^$removeparam=songId
+||music.163.com^$removeparam=songid
+||music.163.com^$removeparam=tn
+||music.163.com^$removeparam=uct2
+||music.163.com^$removeparam=userId
+||music.163.com^$removeparam=userid
