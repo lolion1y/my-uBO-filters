@@ -292,11 +292,11 @@ sleazyfork.org##.ad
 ||fanbox.cc^$removeparam=utm_medium
 ||fanbox.cc^$removeparam=utm_source
 
-! ydl.13aka.p1u5
-ydl.baka.plus##+js(set-local-storage-item, ncm_downloader_disclaimer_accepted, true)
-ydl.baka.plus##+js(set-local-storage-item, qq_music_unlocked, true)
-ydl.baka.plus##+js(set-local-storage-item, ncm-verified, 1)
-! ydl.baka.plus##+js(set-local-storage-item, qqMusicBannerDismissed, true)
+! 13aka
+liuran001.github.io##+js(set-local-storage-item, ncm_downloader_disclaimer_accepted, true)
+liuran001.github.io##+js(set-local-storage-item, qq_music_unlocked, true)
+liuran001.github.io##+js(set-local-storage-item, ncm-verified, 1)
+! liuran001.github.io##+js(set-local-storage-item, qqMusicBannerDismissed, true)
 
 ! pcgamingwiki.com
 ||pcgamingwiki.com^$removeparam=utm_source
