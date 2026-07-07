@@ -38,8 +38,8 @@ post.m.smzdm.com##.damo-footer-open-app
 m.sohu.com###CallAppContainer
 
 ! konachan
-||tm-offers.gamingadult.com/ifr/$subdocument
-||tbib.org/gaming/kona.php$subdocument
+tm-offers.gamingadult.com/ifr/$subdocument
+tbib.org/gaming/kona.php$subdocument
 
 ! pixiv
 www.pixiv.net##body > div > div > div > span:has(> div > div > span > a[href*="/info.php"])
@@ -78,7 +78,7 @@ www.windy.com##+js(rc, premium-calendar, body, stay)
 ! www.windy.com##body:watch-attr(class):remove-class(premium-calendar)
 www.windy.com##body > div#logo-wrapper > .animated-windy-logo
 www.windy.com##body > section > span > div#plugin-mobile-calendar > .animated-windy-logo
-||www.windy.com^$removeparam=source
+www.windy.com$removeparam=source
 
 ! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
@@ -88,16 +88,16 @@ www.cnblogs.com##.forpc.imagebar
 www.cnblogs.com##.charm-bar-wrapper
 
 ! Google
-||accounts.google.com/gsi/iframe
+accounts.google.com/gsi/iframe
 ! Search
-||google.*/search$removeparam=sxsrf
+google.*/search$removeparam=sxsrf
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
 www.ptt.cc/ask/over18##+js(trusted-click-element,button.btn-big[value="yes"])
 
 ! ghxi
-||www.ghxi.com/wp-content/plugins/wp-opt/static/js/front.min.js$script,1p
+www.ghxi.com/wp-content/plugins/wp-opt/static/js/front.min.js$script,1p
 
 ! csdn
 blog.csdn.net##.wap-shadowbox.weixin-shadowbox
@@ -119,8 +119,8 @@ www.photopea.com##.bnotify.window
 
 ! Steam
 $removeparam=snr,domain=steamcommunity.com|steampowered.com
-||store.steampowered.com/app$removeparam=curator_clanid
-||steamcommunity.com/app$removeparam=curator_clanid
+store.steampowered.com/app$removeparam=curator_clanid
+steamcommunity.com/app$removeparam=curator_clanid
 
 ! wikipedia
 ! wikipedia.org###centralNotice
@@ -179,7 +179,7 @@ ascii2d.net##.row > div > div:has(> .hidden-md-up > h5:contains("広告"))
 www.apkmirror.com##.apkm-timed-slider
 
 ! mi
-||api.miwifi.com/res_stat/track.gif
+api.miwifi.com/res_stat/track.gif
 
 ! telemetr.io
 telemetr.io##.bg-blur
@@ -193,7 +193,7 @@ bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
 bangumi.online##div > div > div:has(a > img[src*="logo_text.png"]):style(padding: 0 5px 0 0 !important)
 
 ! xfolio.jp
-! @@||xfolio.jp/lu_assets/cookie-popup.$script,1p
+! @@xfolio.jp/lu_assets/cookie-popup.$script,1p
 ! xfolio.jp##.cookie-consent
 xfolio.jp##.headerInfo
 xfolio.jp##+js(set-cookie, xfolio-cookie-popup, true)
@@ -206,8 +206,8 @@ dmmiku.com###vodshare
 
 ! pornhub
 pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, , reload, 1)
-||pornhub.*/_xa/ads
-||trafficjunky.com^$3p
+pornhub.*/_xa/ads
+trafficjunky.com$3p
 ! pornhub.com##+js(rc, blurredAVModal)
 ! pornhub.com##+js(rc, is-blurred)
 ! pornhub.com##+js(rc, isOpenMTubes)
@@ -289,9 +289,9 @@ feishu.cn##.ssrWaterMark
 sleazyfork.org##.ad
 
 ! fanbox
-||fanbox.cc^$removeparam=utm_campaign
-||fanbox.cc^$removeparam=utm_medium
-||fanbox.cc^$removeparam=utm_source
+fanbox.cc$removeparam=utm_campaign
+fanbox.cc$removeparam=utm_medium
+fanbox.cc$removeparam=utm_source
 
 ! 13aka
 liuran001.github.io##+js(set-local-storage-item, ncm_downloader_disclaimer_accepted, true)
@@ -300,59 +300,59 @@ liuran001.github.io##+js(set-local-storage-item, ncm-verified, 1)
 ! liuran001.github.io##+js(set-local-storage-item, qqMusicBannerDismissed, true)
 
 ! pcgamingwiki.com
-||pcgamingwiki.com^$removeparam=utm_source
+pcgamingwiki.com$removeparam=utm_source
 
 ! twitter
 $removeparam=utm_source,domain=twitter.com|x.com
 $removeparam=launch_app_store,domain=mobile.twitter.com|m.x.com
 
 ! porkbun
-||porkbun.com^$removeparam=prb
-||porkbun.com^$removeparam=search
-||porkbun.com^$removeparam=csrf_pb
+porkbun.com$removeparam=prb
+porkbun.com$removeparam=search
+porkbun.com$removeparam=csrf_pb
 porkbun.com##.container.notHomepageTopContainer > .black:remove()
 ! porkbun.com###bulkDiscountNotice
 porkbun.com###searchResultsDomainContainerSide
 ! porkbun.com###searchResultsDomainContainerSide
 
 ! GitHub
-||github.com/*?tab=readme-ov-file$removeparam=tab
+github.com/*?tab=readme-ov-file$removeparam=tab
 
 ! cmb
-! ||market.cmbchina.com/personal/index/index.htm$removeparam=version
-||market.cmbchina.com/personal/index/index.htm$removeparam=DeviceType
-||market.cmbchina.com/personal/index/index.htm$removeparam=SystemVersion
-||market.cmbchina.com/personal/index/index.htm$removeparam=ClientNo
-! ||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=version
-||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=DeviceType
-||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=SystemVersion
-||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
-! ||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=version
-||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
-||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
-||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
+! market.cmbchina.com/personal/index/index.htm$removeparam=version
+market.cmbchina.com/personal/index/index.htm$removeparam=DeviceType
+market.cmbchina.com/personal/index/index.htm$removeparam=SystemVersion
+market.cmbchina.com/personal/index/index.htm$removeparam=ClientNo
+! market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=version
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=DeviceType
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=SystemVersion
+market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
+! market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=version
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
+market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
 
 ! sheerid
-||url*.sheerid.com/wf/open?upn=
+url*.sheerid.com/wf/open?upn=
 
 ! utm_*
 $removeparam=/^utm_/
 
 ! regery.com
-||regery.com^$removeparam=pr
+regery.com$removeparam=pr
 
 ! www.right.com.cn
 www.right.com.cn##[class*="-ad"]
 
 ! web.vip.miui.com
-||web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
-||web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
-||web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
-||web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
+web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
+web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
+web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
+web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
 
 ! bilibili
-||bilibili.com^$removeparam=bbid
-||bilibili.com^$removeparam=ts
+bilibili.com$removeparam=bbid
+bilibili.com$removeparam=ts
 
 ! www.pinterest.com
 www.pinterest.com##div:has([data-test-id*="signup-mask"])
@@ -366,31 +366,31 @@ skebetter.com##div:has(> .horizontal-list-fanza)
 
 ! Netease
 ! music
-||music.163.com^$removeparam=H5_DownloadVIPGift
-||music.163.com^$removeparam=PlayerStyles_SynchronousSharing
-||music.163.com^$removeparam=app_version
-||music.163.com^$removeparam=dlt
-||music.163.com^$removeparam=encryptUid
-||music.163.com^$removeparam=fx-listentest
-||music.163.com^$removeparam=fx-wechatnew
-||music.163.com^$removeparam=fx-wordtest
-||music.163.com^$removeparam=fx-wxqd
-||music.163.com^$removeparam=inviterId
-||music.163.com^$removeparam=inviterid
-||music.163.com^$removeparam=isFLT
-||music.163.com^$removeparam=market
-||music.163.com^$removeparam=nm_style
-||music.163.com^$removeparam=page
-||music.163.com^$removeparam=playerUIModeId
-||music.163.com^$removeparam=redirectFromExternal
-||music.163.com^$removeparam=sc
-||music.163.com^$removeparam=share_app
-||music.163.com^$removeparam=songId
-||music.163.com^$removeparam=songid
-||music.163.com^$removeparam=tn
-||music.163.com^$removeparam=uct2
-||music.163.com^$removeparam=userId
-||music.163.com^$removeparam=userid
+music.163.com$removeparam=H5_DownloadVIPGift
+music.163.com$removeparam=PlayerStyles_SynchronousSharing
+music.163.com$removeparam=app_version
+music.163.com$removeparam=dlt
+music.163.com$removeparam=encryptUid
+music.163.com$removeparam=fx-listentest
+music.163.com$removeparam=fx-wechatnew
+music.163.com$removeparam=fx-wordtest
+music.163.com$removeparam=fx-wxqd
+music.163.com$removeparam=inviterId
+music.163.com$removeparam=inviterid
+music.163.com$removeparam=isFLT
+music.163.com$removeparam=market
+music.163.com$removeparam=nm_style
+music.163.com$removeparam=page
+music.163.com$removeparam=playerUIModeId
+music.163.com$removeparam=redirectFromExternal
+music.163.com$removeparam=sc
+music.163.com$removeparam=share_app
+music.163.com$removeparam=songId
+music.163.com$removeparam=songid
+music.163.com$removeparam=tn
+music.163.com$removeparam=uct2
+music.163.com$removeparam=userId
+music.163.com$removeparam=userid
 
 ! Google
 support.google.com$removeparam=sjid
