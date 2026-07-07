@@ -4,6 +4,7 @@
 
 ! fuck webrtc
 *##+js(nowebrtc)
+challenges.cloudflare.com#@#+js(nowebrtc)
 
 ! baidu
 baike.baidu.com###J-invoke-baiduApp-float
