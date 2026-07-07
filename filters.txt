@@ -391,3 +391,9 @@ skebetter.com##div:has(> .horizontal-list-fanza)
 ||music.163.com^$removeparam=uct2
 ||music.163.com^$removeparam=userId
 ||music.163.com^$removeparam=userid
+
+! Google
+support.google.com$removeparam=sjid
+! support.google.com$removeparam=topic
+! Play
+play.google.com/store/apps/details$removeparam=ah
