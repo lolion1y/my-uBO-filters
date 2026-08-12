@@ -397,3 +397,6 @@ support.google.com$removeparam=sjid
 ! support.google.com$removeparam=topic
 ! Play
 play.google.com/store/apps/details$removeparam=ah
+
+! Microsoft
+blogs.windows.com$removeparam=CLRTags
