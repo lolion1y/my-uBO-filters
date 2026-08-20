@@ -142,8 +142,11 @@ hu.tv##+js(set-cookie, newurl)
 idol.sankakucomplex.com###news-ticker
 idol.sankakucomplex.com##.carousel
 
-! gamer.com.tw
+! bahamut
 ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1)
+! ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1, , reload, 1)
+ref.gamer.com.tw/redir.php?url$urlskip=?url
+ref.gamer.com.tw/1000002/*$urlskip=/\*(https?:\/\/.+)/
 
 ! 360doc
 www.360doc.cn##[src^="https://pxjtnhq.360doc.cn"]
@@ -268,9 +271,6 @@ imgur.com##.BottomRecirc
 imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/random-meme-dump"])
 imgur.com##.Navigation-buttons:has(> div > a[href^="/gallery/i-had-to-share"])
 imgur.com##.NavbarArcadeButton
-
-! bahamut
-ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1, , reload, 1)
 
 ! www.patreon.com
 www.patreon.com##+js(set-cookie, can_see_nsfw, 1, , reload, 1)
@@ -400,3 +400,6 @@ play.google.com/store/apps/details$removeparam=ah
 
 ! Microsoft
 blogs.windows.com$removeparam=CLRTags
+
+! api.fxtwitter.com
+api.fxtwitter.com/*/hit?url$urlskip=?url
