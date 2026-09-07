@@ -4,7 +4,7 @@
 
 ! fuck webrtc
 *##+js(nowebrtc)
-challenges.cloudflare.com,file.pizza#@#+js(nowebrtc)
+challenges.cloudflare.com,file.pizza,web.localsend.org#@#+js(nowebrtc)
 
 ! baidu
 baike.baidu.com###J-invoke-baiduApp-float
