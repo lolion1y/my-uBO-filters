@@ -137,6 +137,9 @@ steamcommunity.com/app$removeparam=curator_clanid
 ! wikipedia.org###centralNotice
 ! wikipedia.org###asn-dismissable-notice
 wikipedia.org###siteNotice
+en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os, , , dontOverwrite, 1)
+zh.wikipedia.org##+js(trusted-set-cookie, zhwikimwclientpreferences, skin-theme-clientpref-os, , , dontOverwrite, 1)
+ja.wikipedia.org##+js(trusted-set-cookie, jawikimwclientpreferences, skin-theme-clientpref-os, , , dontOverwrite, 1)
 
 ! wikibooks.org
 wikibooks.org###siteNotice

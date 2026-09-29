@@ -15,3 +15,5 @@ trustedListPrefixes ublock- https://raw.githubusercontent.com/lolion1y/my-uBO-fi
 Currently using `trusted-*`:
 * vscode
   * trusted-click-element
+* wikipedia
+  * trusted-set-cookie
