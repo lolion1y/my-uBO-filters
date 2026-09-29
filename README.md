@@ -13,10 +13,12 @@ trustedListPrefixes ublock- https://raw.githubusercontent.com/lolion1y/my-uBO-fi
 ```
 
 Currently using `trusted-*`:
+* ptt.cc
+  * `trusted-click-element`
 * vscode
-  * trusted-click-element
+  * `trusted-click-element`
 * wikipedia
-  * trusted-set-cookie
+  * `trusted-set-cookie`
 * Apple
   * Music
-    * trusted-set-cookie
+    * `trusted-set-cookie`
