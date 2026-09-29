@@ -403,3 +403,7 @@ blogs.windows.com$removeparam=CLRTags
 
 ! api.fxtwitter.com
 api.fxtwitter.com/*/hit?url$urlskip=?url
+
+! ec-russell.jp
+ec-russell.jp##+js(set-cookie-reload, rd, 1, , /)
+ec-russell.jp/*/rating^$document
