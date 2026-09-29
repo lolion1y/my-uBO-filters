@@ -41,8 +41,8 @@ post.m.smzdm.com##.damo-footer-open-app
 m.sohu.com###CallAppContainer
 
 ! konachan
-tm-offers.gamingadult.com/ifr/$subdocument
-tbib.org/gaming/kona.php$subdocument
+||tm-offers.gamingadult.com/ifr/$subdocument
+||tbib.org/gaming/kona.php$subdocument
 
 ! pixiv
 www.pixiv.net##body > div > div > div > span:has(> div > div > span > a[href*="/info.php"])
@@ -65,23 +65,23 @@ www.pixiv.net##.xz_msg_box
 tech.groww.in##.vt.vs.vr.m
 
 ! windy.com
-www.windy.com##.premium-button:style(animation-duration: unset !important; animation-name: none !important)
-www.windy.com##.open-in-app
-www.windy.com##body > #search > div[data-plugin="startup-articles"]
-www.windy.com##body > #search > div#startup-promo:has(.premium-button)
-www.windy.com##body > span > #plugin-menu > section.plugin__content > .premium-button
-www.windy.com##body > span > #plugin-picker-mobile > section > section.picker-buttons > div > div.button:contains("Support")
-www.windy.com##body > span > #plugin-subscription:has([src*="premium"])
-www.windy.com##body > section#bottom-wrapper > span > div > div.controls > div > div > div > div.premium-button
-www.windy.com###desktop-premium-icon
-! www.windy.com##body > div > span > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
-www.windy.com##.get-premium
-! www.windy.com##body > div > span > #plugin-detail > section.main-table > div > div > div > .get-premium
-www.windy.com##+js(rc, premium-calendar, body, stay)
-! www.windy.com##body:watch-attr(class):remove-class(premium-calendar)
-www.windy.com##body > div#logo-wrapper > .animated-windy-logo
-www.windy.com##body > section > span > div#plugin-mobile-calendar > .animated-windy-logo
-www.windy.com$removeparam=source
+windy.com##.premium-button:style(animation-duration: unset !important; animation-name: none !important)
+windy.com##.open-in-app
+windy.com##body > #search > div[data-plugin="startup-articles"]
+windy.com##body > #search > div#startup-promo:has(.premium-button)
+windy.com##body > span > #plugin-menu > section.plugin__content > .premium-button
+windy.com##body > span > #plugin-picker-mobile > section > section.picker-buttons > div > div.button:contains("Support")
+windy.com##body > span > #plugin-subscription:has([src*="premium"])
+windy.com##body > section#bottom-wrapper > span > div > div.controls > div > div > div > div.premium-button
+windy.com###desktop-premium-icon
+! windy.com##body > div > span > #plugin-rhpane-top > div.premium-button:not([class*="svelte"])
+windy.com##.get-premium
+! windy.com##body > div > span > #plugin-detail > section.main-table > div > div > div > .get-premium
+windy.com##+js(rc, premium-calendar, body, stay)
+! windy.com##body:watch-attr(class):remove-class(premium-calendar)
+windy.com##body > div#logo-wrapper > .animated-windy-logo
+windy.com##body > section > span > div#plugin-mobile-calendar > .animated-windy-logo
+||windy.com^$removeparam=source
 
 ! nilesoft
 nilesoft.org##.my-6.is-vcentered.columns
@@ -91,24 +91,24 @@ www.cnblogs.com##.forpc.imagebar
 www.cnblogs.com##.charm-bar-wrapper
 
 ! Google
-accounts.google.com/gsi/iframe
-support.google.com$removeparam=sjid
-! support.google.com$removeparam=topic
+||accounts.google.com/gsi/iframe
+||support.google.com^$removeparam=sjid
+! ||support.google.com^$removeparam=topic
 ! Search
-google.*/search$removeparam=sxsrf
-google.com/url?*url=$removeparam=~url
-google.com/url?*url=$urlskip=?url
-google.com/url?q=$removeparam=~q
-google.com/url?q=$urlskip=?q
+||google.*/search$removeparam=sxsrf
+||google.com/url?*url=$removeparam=~url
+||google.com/url?*url=$urlskip=?url
+||google.com/url?q=$removeparam=~q
+||google.com/url?q=$urlskip=?q
 ! Play
-play.google.com/store/apps/details$removeparam=ah
+||play.google.com/store/apps/details$removeparam=ah
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
 www.ptt.cc/ask/over18##+js(trusted-click-element,button.btn-big[value="yes"])
 
 ! ghxi
-www.ghxi.com/wp-content/plugins/wp-opt/static/js/front.min.js$script,1p
+||ghxi.com/wp-content/plugins/wp-opt/static/js/front.min.js$script,1p
 
 ! csdn
 blog.csdn.net##.wap-shadowbox.weixin-shadowbox
@@ -118,7 +118,7 @@ blog.csdn.net##.active.openApp
 supjav.com##div[class*="slideAnimation"]
 
 ! vk
-! m.vk.com##.Popup_open.Popup.ModalMenu:remove()
+! vk.com##.Popup_open.Popup.ModalMenu:remove()
 vk.com##.Popup__overlay
 vk.com##.PageBottomBanner
 vk.com##div[class="ModalMenu ModalMenu--default Popup Popup_open"] > .Popup__wrap
@@ -130,8 +130,8 @@ www.photopea.com##.bnotify.window
 
 ! Steam
 $removeparam=snr,domain=steamcommunity.com|steampowered.com
-store.steampowered.com/app$removeparam=curator_clanid
-steamcommunity.com/app$removeparam=curator_clanid
+||store.steampowered.com/app$removeparam=curator_clanid
+||steamcommunity.com/app$removeparam=curator_clanid
 
 ! wikipedia
 ! wikipedia.org###centralNotice
@@ -159,8 +159,8 @@ idol.sankakucomplex.com##.carousel
 ! bahamut
 ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1)
 ! ref.gamer.com.tw##+js(set-cookie, ckNOCONFIRM, 1, , reload, 1)
-ref.gamer.com.tw/redir.php?url$urlskip=?url
-ref.gamer.com.tw/1000002/*$urlskip=/\*(https?:\/\/.+)/
+||ref.gamer.com.tw/redir.php?url$urlskip=?url
+||ref.gamer.com.tw/1000002/*$urlskip=/\*(https?:\/\/.+)/
 
 ! 360doc
 www.360doc.cn##[src^="https://pxjtnhq.360doc.cn"]
@@ -196,7 +196,7 @@ ascii2d.net##.row > div > div:has(> .hidden-md-up > h5:contains("広告"))
 www.apkmirror.com##.apkm-timed-slider
 
 ! mi
-api.miwifi.com/res_stat/track.gif
+||api.miwifi.com/res_stat/track.gif
 
 ! telemetr.io
 telemetr.io##.bg-blur
@@ -210,21 +210,21 @@ bangumi.online##body > div:has(> div > div > div:contains("公　　告"))
 bangumi.online##div > div > div:has(a > img[src*="logo_text.png"]):style(padding: 0 5px 0 0 !important)
 
 ! xfolio.jp
-! @@xfolio.jp/lu_assets/cookie-popup.$script,1p
+! @@||xfolio.jp/lu_assets/cookie-popup.$script,1p
 ! xfolio.jp##.cookie-consent
 xfolio.jp##.headerInfo
 xfolio.jp##+js(set-cookie, xfolio-cookie-popup, true)
 xfolio.jp##+js(aeld, contextmenu)
 xfolio.jp##+js(aeld, copy)
-xfolio.jp##img:style(pointer-events: auto !important;)
+xfolio.jp##img:style(pointer-events: auto !important)
 
 ! dmmiku.com
 dmmiku.com###vodshare
 
 ! pornhub
 pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 2, , reload, 1)
-pornhub.*/_xa/ads
-trafficjunky.com$3p
+||pornhub.*/_xa/ads
+||trafficjunky.com^$3p
 ! pornhub.com##+js(rc, blurredAVModal)
 ! pornhub.com##+js(rc, is-blurred)
 ! pornhub.com##+js(rc, isOpenMTubes)
@@ -313,52 +313,52 @@ $removeparam=launch_app_store,domain=mobile.twitter.com|m.x.com
 ||t.co^$document
 
 ! porkbun
-porkbun.com$removeparam=prb
-porkbun.com$removeparam=search
-porkbun.com$removeparam=csrf_pb
+||porkbun.com^$removeparam=prb
+||porkbun.com^$removeparam=search
+||porkbun.com^$removeparam=csrf_pb
 porkbun.com##.container.notHomepageTopContainer > .black:remove()
 ! porkbun.com###bulkDiscountNotice
 porkbun.com###searchResultsDomainContainerSide
 ! porkbun.com###searchResultsDomainContainerSide
 
 ! GitHub
-github.com/*?tab=readme-ov-file$removeparam=tab
+||github.com/*?tab=readme-ov-file$removeparam=tab
 
 ! cmb
-! market.cmbchina.com/personal/index/index.htm$removeparam=version
-market.cmbchina.com/personal/index/index.htm$removeparam=DeviceType
-market.cmbchina.com/personal/index/index.htm$removeparam=SystemVersion
-market.cmbchina.com/personal/index/index.htm$removeparam=ClientNo
-! market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=version
-market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=DeviceType
-market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=SystemVersion
-market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
-! market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=version
-market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
-market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
-market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
+! ||market.cmbchina.com/personal/index/index.htm$removeparam=version
+||market.cmbchina.com/personal/index/index.htm$removeparam=DeviceType
+||market.cmbchina.com/personal/index/index.htm$removeparam=SystemVersion
+||market.cmbchina.com/personal/index/index.htm$removeparam=ClientNo
+! ||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=version
+||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=DeviceType
+||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=SystemVersion
+||market.cmbchina.com/MPage/online/*/inforeception.htm$removeparam=ClientNo
+! ||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=version
+||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=DeviceType
+||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=SystemVersion
+||market.cmbchina.com/MPage/online/*/privacy.htm$removeparam=ClientNo
 
 ! sheerid
-url*.sheerid.com/wf/open?upn=
+||url*.sheerid.com/wf/open?upn=
 
 ! utm_*
 $removeparam=/^utm_/
 
 ! regery.com
-regery.com$removeparam=pr
+||regery.com^$removeparam=pr
 
 ! www.right.com.cn
 www.right.com.cn##[class*="-ad"]
 
 ! web.vip.miui.com
-web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
-web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
-web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
-web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
+||web.vip.miui.com/page/info/mio/mio/*$removeparam=app_version
+||web.vip.miui.com/page/info/mio/mio/*$removeparam=ref
+||web.vip.miui.com/page/info/mio/mio/*$removeparam=/^from/
+||web.vip.miui.com/page/info/mio/mio/*$removeparam=isTop
 
 ! bilibili
-bilibili.com$removeparam=bbid
-bilibili.com$removeparam=ts
+||bilibili.com^$removeparam=bbid
+||bilibili.com^$removeparam=ts
 
 ! www.pinterest.com
 www.pinterest.com##div:has([data-test-id*="signup-mask"])
@@ -371,42 +371,42 @@ skebetter.com##body:style(pointer-events: unset !important)
 skebetter.com##div:has(> .horizontal-list-fanza)
 
 ! Netease
-! music
-music.163.com$removeparam=H5_DownloadVIPGift
-music.163.com$removeparam=PlayerStyles_SynchronousSharing
-music.163.com$removeparam=app_version
-music.163.com$removeparam=dlt
-music.163.com$removeparam=encryptUid
-music.163.com$removeparam=fx-listentest
-music.163.com$removeparam=fx-wechatnew
-music.163.com$removeparam=fx-wordtest
-music.163.com$removeparam=fx-wxqd
-music.163.com$removeparam=inviterId
-music.163.com$removeparam=inviterid
-music.163.com$removeparam=isFLT
-music.163.com$removeparam=market
-music.163.com$removeparam=nm_style
-music.163.com$removeparam=page
-music.163.com$removeparam=playerUIModeId
-music.163.com$removeparam=redirectFromExternal
-music.163.com$removeparam=sc
-music.163.com$removeparam=share_app
-music.163.com$removeparam=songId
-music.163.com$removeparam=songid
-music.163.com$removeparam=tn
-music.163.com$removeparam=uct2
-music.163.com$removeparam=userId
-music.163.com$removeparam=userid
+! Music
+||music.163.com^$removeparam=H5_DownloadVIPGift
+||music.163.com^$removeparam=PlayerStyles_SynchronousSharing
+||music.163.com^$removeparam=app_version
+||music.163.com^$removeparam=dlt
+||music.163.com^$removeparam=encryptUid
+||music.163.com^$removeparam=fx-listentest
+||music.163.com^$removeparam=fx-wechatnew
+||music.163.com^$removeparam=fx-wordtest
+||music.163.com^$removeparam=fx-wxqd
+||music.163.com^$removeparam=inviterId
+||music.163.com^$removeparam=inviterid
+||music.163.com^$removeparam=isFLT
+||music.163.com^$removeparam=market
+||music.163.com^$removeparam=nm_style
+||music.163.com^$removeparam=page
+||music.163.com^$removeparam=playerUIModeId
+||music.163.com^$removeparam=redirectFromExternal
+||music.163.com^$removeparam=sc
+||music.163.com^$removeparam=share_app
+||music.163.com^$removeparam=songId
+||music.163.com^$removeparam=songid
+||music.163.com^$removeparam=tn
+||music.163.com^$removeparam=uct2
+||music.163.com^$removeparam=userId
+||music.163.com^$removeparam=userid
 
 ! Microsoft
-blogs.windows.com$removeparam=CLRTags
+||blogs.windows.com^$removeparam=CLRTags
 
 ! api.fxtwitter.com
-api.fxtwitter.com/*/hit?url$urlskip=?url
+||api.fxtwitter.com/*/hit?url$urlskip=?url
 
 ! ec-russell.jp
 ec-russell.jp##+js(set-cookie-reload, rd, 1, , /)
-ec-russell.jp/*/rating^$document
+||ec-russell.jp/*/rating^$document
 
 ! emailnator.com
 www.emailnator.com##.adsbygoogle
