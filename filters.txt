@@ -92,8 +92,16 @@ www.cnblogs.com##.charm-bar-wrapper
 
 ! Google
 accounts.google.com/gsi/iframe
+support.google.com$removeparam=sjid
+! support.google.com$removeparam=topic
 ! Search
 google.*/search$removeparam=sxsrf
+google.com/url?*url=$removeparam=~url
+google.com/url?*url=$urlskip=?url
+google.com/url?q=$removeparam=~q
+google.com/url?q=$urlskip=?q
+! Play
+play.google.com/store/apps/details$removeparam=ah
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
@@ -385,12 +393,6 @@ music.163.com$removeparam=tn
 music.163.com$removeparam=uct2
 music.163.com$removeparam=userId
 music.163.com$removeparam=userid
-
-! Google
-support.google.com$removeparam=sjid
-! support.google.com$removeparam=topic
-! Play
-play.google.com/store/apps/details$removeparam=ah
 
 ! Microsoft
 blogs.windows.com$removeparam=CLRTags
