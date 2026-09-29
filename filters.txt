@@ -22,6 +22,9 @@ moegirl.org.cn###footer-copyright-text div.plainlinks a[href^="https://app.moegi
 moegirl.org.cn###homeland-topics-view div.site-statistics > div.extra-buttons > a[href^="https://app.moegirl.org.cn"]
 moegirl.org.cn##+js(aeld, copy)
 
+! moegirl.tw
+moegirl.tw###moe-open-in-app
+
 ! reddit
 www.reddit.com##xpromo-untagged-content-blocking-modal
 www.reddit.com##xpromo-nsfw-blocking-modal
