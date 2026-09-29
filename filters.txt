@@ -415,3 +415,7 @@ www.emailnator.com##.mf-panel-toolbar > a[href*="/premium"]:style(visibility: hi
 ! www.emailnator.com##.mf-panel-btn-outline:style(visibility: hidden !important)
 www.emailnator.com##.mf-msg-row:has(a[rel*="sponsored"])
 www.emailnator.com##.mf-msg-row:has(.mf-msg-locked)
+
+! Apple
+! Music
+music.apple.com/jp##+js(trusted-set-cookie, geo, JP)

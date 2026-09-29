@@ -17,3 +17,6 @@ Currently using `trusted-*`:
   * trusted-click-element
 * wikipedia
   * trusted-set-cookie
+* Apple
+  * Music
+    * trusted-set-cookie
