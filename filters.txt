@@ -102,6 +102,7 @@ www.cnblogs.com##.charm-bar-wrapper
 ||google.com/url?q=$urlskip=?q
 ! Play
 ||play.google.com/store/apps/details$removeparam=ah
+google.*##+js(href-sanitizer, a[href*="https://play.google.com/store/apps/details"][href], /(play\.google\.com\/store\/apps\/details.(id=[\w\.]+&hl=[\w\-]+|id=[\w\.]+))/ +https)
 
 ! ptt.cc
 www.ptt.cc##+js(set-cookie, over18, 1)
