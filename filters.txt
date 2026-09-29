@@ -407,3 +407,10 @@ api.fxtwitter.com/*/hit?url$urlskip=?url
 ! ec-russell.jp
 ec-russell.jp##+js(set-cookie-reload, rd, 1, , /)
 ec-russell.jp/*/rating^$document
+
+! emailnator.com
+www.emailnator.com##.adsbygoogle
+www.emailnator.com##.mf-panel-toolbar > a[href*="/premium"]:style(visibility: hidden !important)
+! www.emailnator.com##.mf-panel-btn-outline:style(visibility: hidden !important)
+www.emailnator.com##.mf-msg-row:has(a[rel*="sponsored"])
+www.emailnator.com##.mf-msg-row:has(.mf-msg-locked)
