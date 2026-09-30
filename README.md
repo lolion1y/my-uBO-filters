@@ -22,3 +22,5 @@ Currently using `trusted-*`:
 * Apple
   * Music
     * `trusted-set-cookie`
+* dakidex.com
+  * `trusted-set-cookie`

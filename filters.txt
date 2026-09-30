@@ -419,3 +419,7 @@ www.emailnator.com##.mf-msg-row:has(.mf-msg-locked)
 ! Apple
 ! Music
 music.apple.com/jp##+js(trusted-set-cookie, geo, JP)
+
+! dakidex.com
+dakidex.com##+js(trusted-set-cookie, rating_visibility, show_nsfw)
+dakidex.com##+js(trusted-set-cookie, confirmed_age, true)
