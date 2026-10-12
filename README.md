@@ -13,6 +13,8 @@ trustedListPrefixes ublock- https://raw.githubusercontent.com/lolion1y/my-uBO-fi
 ```
 
 Currently using `trusted-*`:
+* moegirl
+  * `uritransform`
 * ptt.cc
   * `trusted-click-element`
 * vscode
@@ -24,3 +26,5 @@ Currently using `trusted-*`:
     * `trusted-set-cookie`
 * dakidex.com
   * `trusted-set-cookie`
+* Danbooru
+  * `uritransform`
