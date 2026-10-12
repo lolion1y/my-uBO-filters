@@ -423,3 +423,6 @@ music.apple.com/jp##+js(trusted-set-cookie, geo, JP)
 ! dakidex.com
 dakidex.com##+js(trusted-set-cookie, rating_visibility, show_nsfw)
 dakidex.com##+js(trusted-set-cookie, confirmed_age, true)
+
+! Danbooru
+||danbooru.donmai.us/post/show$uritransform=/post\/show/posts/
