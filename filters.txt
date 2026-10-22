@@ -314,6 +314,7 @@ liuran001.github.io##+js(set-local-storage-item, ncm-verified, 1)
 ! twitter
 $removeparam=launch_app_store,domain=mobile.twitter.com|m.x.com
 ||t.co^$document
+||twitter.com/*/status/$document,uritransform=/twitter\.com/x.com/
 
 ! porkbun
 ||porkbun.com^$removeparam=prb
@@ -428,3 +429,7 @@ dakidex.com##+js(trusted-set-cookie, confirmed_age, true)
 
 ! Danbooru
 ||danbooru.donmai.us/post/show$uritransform=/post\/show/posts/
+
+! books.com.tw
+||im*.book.com.tw/image/getImage?i=$urlskip=?i
+||www.books.com.tw/img/$document,removeparam=v
