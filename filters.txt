@@ -428,7 +428,7 @@ dakidex.com##+js(trusted-set-cookie, rating_visibility, show_nsfw)
 dakidex.com##+js(trusted-set-cookie, confirmed_age, true)
 
 ! Danbooru
-||danbooru.donmai.us/post/show$uritransform=/post\/show/posts/
+||danbooru.donmai.us/post/show$document,uritransform=/post\/show/posts/
 
 ! books.com.tw
 ||im*.book.com.tw/image/getImage?i=$urlskip=?i
