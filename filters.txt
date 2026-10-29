@@ -315,7 +315,7 @@ liuran001.github.io##+js(set-local-storage-item, ncm-verified, 1)
 $removeparam=launch_app_store,domain=mobile.twitter.com|m.x.com
 ||t.co^$document
 ||twitter.com/*/status/$document,uritransform=/twitter\.com/x.com/
-$removeparam=a,domain=twitter.com|x.com
+.com/*/status/$removeparam=a,domain=twitter.com|x.com
 
 ! porkbun
 ||porkbun.com^$removeparam=prb
